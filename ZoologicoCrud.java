@@ -25,7 +25,7 @@ public class ZoologicoCrud {
 
     public void listar() {
 
-        String sql = "select * from estudiante";
+        String sql = "select * from animales";
 
         try {
             con = acceso.Conectar();
